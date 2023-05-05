@@ -6,13 +6,17 @@ With this automation, you can enter field names and types to the spreadsheet and
 
 See below how to [set up](#setting-up) and [use this tool](#using-the-tool).
 
-> You don't need to know how to code, but you must have an Open AI "pay as you go" account. More details below.
+> You don't need to know how to code, but you must have an Open AI "pay as you go" account. More on pricing below.
 
 ## Setting up
 
-There are two steps to get this tool up and running. First you must [set up your Open AI "pay as you go" account](#set-up-an-openai-paid-account) and then [set up the Google Apps Script](#set-up-google-apps-script).
+There are two steps to get this tool up and running. First you must [Get an Open AI API key](#get-an-open-ai-api-key) and then [set up the Google Apps Script](#set-up-google-apps-script).
 
-### Set up an Open AI paid account
+### Get an Open AI API key
+
+Open AI's "pay as you go" account model allows you to pay by request, when working with a range of APIs, including Dall-e, ChatGPT and GPT-4 text completion.
+
+This tool works with multiple tables at a time, but calls the ChatGPT API once for each table. I recommend you check [Open AI API pricing](https://openai.com/pricing), which may vary if you tweak the parameters. However, with this tool's native settings, I have generated dozens of tables for under $ 0.50.
 
 
 
