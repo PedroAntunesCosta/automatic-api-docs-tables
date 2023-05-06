@@ -4,7 +4,7 @@ When documenting APIs or forms, most of the information in the fields' descripti
 
 With this automation, you can enter field names and types to the spreadsheet and automatically create API fields tables with AI generated descriptions in Markdown or HTML. This works for multiple tables at a time if you are working with complex data structures.
 
-See below how to [set up](#setting-up) and [use this tool](#using-the-tool).
+See below how to [set up](#setting-up) and [use this tool](#using-the-tool). You can also see an actual [example](https://github.com/PedroAntunesCosta/automatic-api-docs-tables/blob/main/EXAMPLE.md) in which I used this tool to create a public doc.
 
 > You don't need to know how to code, but you must have an Open AI "pay as you go" account. More details below.
 
