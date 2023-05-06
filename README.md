@@ -61,3 +61,18 @@ OUTPUT_DOC_ID = "1W7erIcdFKqVc33mRgQAwl16CS_ZQfhC-lElXRlWKGiM"
 ```
 
 ## Using the tool
+
+To generate your automatic API docs tables, follow these steps:
+
+1. Open your spreadsheet.
+2. Enter your data, where each line corresponds to a field and **must** contain three charateristics: 
+    - `Table name`: name of the table that field belongs to. This will be the title in the end result. This is specially relevant when documenting objects within objects.
+    - `Field names`: name of the field.
+    - `Type`: type of the field.
+3. Choose the table format, in cell `D2`. Currently `Markdown` and `HTML` are available.
+4. Go to the `📝 Generate` menu. If you can't see this menu, reload the page and try again.
+5. Click `Generate descriptions`.
+6. Go to the output doc.
+7. Copy the generated tables and use them in your doc.
+
+> ATTENTION! The tables format is hard coded, but they go through the ChatGPT API before the result is available, which may introduce some inconsistencies. So you must double check your tables formatting and review all descriptions before publishing. From the tests so far it seems unlikely that table format will be an issue, but is is very likely you will need to edit a small amount of the descriptions.
