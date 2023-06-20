@@ -75,4 +75,4 @@ To generate your automatic API docs tables, follow these steps:
 6. Go to the output doc.
 7. Copy the generated tables and use them in your doc.
 
-> ATTENTION! The tables format is hard coded, but they go through the ChatGPT API before the result is available, which may introduce some inconsistencies. So you must double check your tables formatting and review all descriptions before publishing. From the tests so far it seems unlikely that table format will be an issue, but is is very likely you will need to edit a small amount of the descriptions.
+> ATTENTION! The tables format is hard-coded, but they go through the ChatGPT API before the result is available, which may introduce some inconsistencies. So you must double check your tables formatting and review all descriptions before publishing. From the tests so far it seems unlikely that table format will be an issue, but is is very likely you will need to edit a small amount of the descriptions.
